@@ -47,11 +47,15 @@ To build a prediction model I used XGBoost (Gradient boosting). XGBoost has a nu
 - Typically outperforms a random forrest if well-tuined to prevent it from overfitting
 - Suitable for medium-sized data sets
 
-I evaluated my model using the mean absolute error (MAE)
+I evaluated my model using the mean absolute error (MAE) and Mean Absolute Percentage Error (MAPE). My final model has an accuracy of about 80% (measured by the MAPE)
 
 ### Designing a user interface
 
+To design a user interface I worked with [streamlit](https://www.streamlit.io), a nifty tool that easily transform a machine learning model to a performant web app. Deployment of my streamlit app was done through an AWS EC2 instance.
+
 ## 4. LuxTrueValue, What's next?
+
+With the rise of online resale, correct estimation of market value is key - LuxTrueValue could easily be scaled to include many other products (think shoes, clothes,...!)
 
 Prefer to listen? Watch me demo LuxTrueValue in [this](https://www.youtube.com/watch?v=G4gp2c0PrRU) 5 minute YouTube video.
 
