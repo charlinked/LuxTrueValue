@@ -55,7 +55,7 @@ To design a user interface I worked with [streamlit](https://www.streamlit.io), 
 
 ## 4. LuxTrueValue, What's next?
 
-With the rise of online resale, correct estimation of market value is key - LuxTrueValue could easily be scaled to include many other products (think shoes, clothes,...!)
+With the rise of online resale, correct estimation of market value is key! - LuxTrueValue could easily be scaled to include many other products (think shoes, clothes,...!) and provide a market value estimation. 
 
 Prefer to listen? Watch me demo LuxTrueValue in [this](https://www.youtube.com/watch?v=G4gp2c0PrRU) 5 minute YouTube video.
 
