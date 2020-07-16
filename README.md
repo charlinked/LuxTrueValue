@@ -8,8 +8,7 @@ Luxury resale has gained tremendous popularity, with many customers now buying a
 
 ## 2. Website (http://drivenbydata.me)
 
-![Image of homepage]
-(https://github.com/charlinked/LuxTrueValue/blob/master/figures/homepage.png)
+![Image of homepage](https://github.com/charlinked/LuxTrueValue/blob/master/figures/homepage.png)
 
 ### how to interact with the Website
 Different fields allow for the input of products specifics. To guide the user, infographics for different input fields were added.
