@@ -55,4 +55,4 @@ I evaluated my model using the mean absolute error (MAE)
 
 Prefer to listen? Watch me demo LuxTrueValue in [this](https://www.youtube.com/watch?v=G4gp2c0PrRU) 5 minute YouTube video.
 
-LuxTrueValue is a project for Insight Data Science
+LuxTrueValue is a project for [Insight Data Science](https://insightfellows.com/data-science)
