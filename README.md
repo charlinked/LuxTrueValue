@@ -13,14 +13,17 @@ Luxury resale has gained tremendous popularity, with many customers now buying a
 ### how to interact with the Website
 Different fields allow for the input of products specifics. To guide the user, infographics for different input fields were added.
 
-
+![Image of selectionboxes](https://github.com/charlinked/LuxTrueValue/blob/master/figures/selectionboxes.png)
 
 ### output
 
 The app outputs the market value at the bottom of the page in *real time*. The user can also play around with the product specifics and see how altering one feature influences the market value estimation: eg to know if buying a bag in a certain material is a better 'investment' when planning to resell that bag later on?)
 
+![Image of output](https://github.com/charlinked/LuxTrueValue/blob/master/figures/output.png)
 
 ## 3. Pipeline
+
+![Image of pipeline](https://github.com/charlinked/LuxTrueValue/blob/master/figures/pipeline.png)
 
 Data was scraped using Beautiful Soup in Python. Raw data was loaded into Google BigQuery SQL database for data cleaning and feature engineering, after it was uploaded into a jupyter notebook and processed further with Pandas. Exploratory data analysis was done with Pandas, Numpy, Matplotlib and Seaborn.
 
@@ -46,13 +49,10 @@ To build a prediction model I used XGBoost (Gradient boosting). XGBoost has a nu
 
 I evaluated my model using the mean absolute error (MAE)
 
-
 ### Designing a user interface
 
 ## 4. LuxTrueValue, What's next?
 
-
-
-Prefer to listen? Watch me demo LuxTrueValue in this 5 minute YouTube video: *link*
+Prefer to listen? Watch me demo LuxTrueValue in [this](https://www.youtube.com/watch?v=G4gp2c0PrRU) 5 minute YouTube video.
 
 LuxTrueValue is a project for Insight Data Science
