@@ -28,9 +28,22 @@ To get an insight into feature importance I used both the eli5 and shap librarie
 
 ### Data Sources
 
+Data was scraped from different company websites that sell pre-owned luxury bags (Fashionphile, Rebag and Amore), I used BeautifulSoup in Python and a webdriver to scrape dynamic webpages.
+
 ### Data processing
 
+Raw data was imported into Google BigQuery for data cleaning and feature engineering, a next layer of data cleaning was done in Pandas, where I also merged different tables.
+
 ### Building a prediction model
+
+To build a prediction model I used XGBoost (Gradient boosting). XGBoost has a number of advantages that are important in this situation:
+- Can model non-linear relationships
+- Can deal with correlated and irrelevant features
+- Typically outperforms a random forrest if well-tuined to prevent it from overfitting
+- Suitable for medium-sized data sets
+
+I evaluated my model using the mean absolute error (MAE)
+
 
 ### Designing a user interface
 
